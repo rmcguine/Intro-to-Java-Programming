@@ -1,12 +1,11 @@
-package Exercises03;
-
-import java.util.Scanner;
-
 /*
 Write a program that prompts the user to enter values for a, b, and c and displays 
 the result based on the discriminant. If the discriminant is positive, display two roots. 
 If the discriminant is 0, display one root. Otherwise, display “The equation has no real roots.”
 */
+
+import java.util.Scanner;
+
 public class Exercise_03_01 {
     public static void main(String[] args) {
         // Create scanner object
