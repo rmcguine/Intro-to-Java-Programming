@@ -26,10 +26,8 @@ public class Exercise_03_03 {
         
         else {    
             // find values for x and y
-            // double valX = (((valE * valD) - (valB * valF)) / ((valA * valD) - (valB - valC)));
-            double x = (e * d - b * f) / (a * d - b * c); 
-            // double valY = (((valA * valF) - (valE * valC)) / ((valA * valD) - (valB - valC)));
-            double y = (a * f - e * c) / (a * d - b * c);
+            double x = (((e * d) - (b * f)) / ((a * d) - (b - c)));           
+            double y = (((a * f) - (e * c)) / ((a * d) - (b - c)));
 
             // Print x and y
             System.out.println("x is " + x + " and y is " + y);
