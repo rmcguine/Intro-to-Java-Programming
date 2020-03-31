@@ -1,5 +1,3 @@
-package Exercises03;
-
 /* The program in Listing 3.1, AdditionQuiz.java, generates two integers and prompts the user to 
 enter the product of these two inte- gers. Revise the program to generate three single-digit integers 
 and prompt the user to enter the multiplication of these three integers.
