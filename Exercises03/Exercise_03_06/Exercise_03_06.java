@@ -22,7 +22,7 @@ public class Exercise_03_06 {
 
         System.out.println("Enter feet: ");
         int userFeet = input.nextInt();
-        userFeet *= 12; // Divide feet by 12 to get inches
+        userFeet *= 12; // Multiply feet by 12 to get inches
 
         System.out.println("Enter inches: ");
         int userInches = input.nextInt();
