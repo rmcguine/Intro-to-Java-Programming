@@ -26,7 +26,7 @@ public class Exercise_03_13 {
         double tax = 0;
 
         switch(status) {
-            case 0:
+            case 0: // Single-filer
                 tax += (income <= 8350) ? income * 0.10 : 8350 * 0.10;
                 if (income > 8350)
                     tax += (income <= 33950) ? (income - 8350) * 0.15 : 25600 * 0.15;
@@ -39,7 +39,7 @@ public class Exercise_03_13 {
                 if (income > 372950)
                     tax += (income - 372950) * 0.35;
                 break;
-            case 1:
+            case 1: // Married jointly or qualifying widow(er)
                 tax += (income <= 16700) ? income * 0.10 : 16700 * 0.10;
                 if (income > 16700)
                     tax += (income <= 67900) ? (income - 16700) * 0.15 : (67900 - 16700) * 0.15;
@@ -52,7 +52,7 @@ public class Exercise_03_13 {
                 if (income > 372951)
                     tax += (income - 372950) * 0.35;
                 break;    
-            case 2:
+            case 2: // Married Seperately
                 tax += (income <= 8350) ? income * 0.10 : 8350 * 0.10;
                 if (income > 8350)
                     tax += (income <= 33950) ? (income - 8350) * 0.15 : (33950 - 8350) * 0.15;
@@ -65,7 +65,7 @@ public class Exercise_03_13 {
                 if (income > 186476)
                     tax += (income - 186475) * 0.35;
                 break;    
-            case 3:
+            case 3: // Head of household
                 tax += (income <= 11950) ? income * 0.10 : 11950 * 0.10;
                 if (income > 11950) 
                     tax += (income <= 45500) ? (income - 11950) * 0.15 : (45500 - 11950) * 0.15;
