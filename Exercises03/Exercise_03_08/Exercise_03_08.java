@@ -40,10 +40,6 @@ public class Exercise_03_08 {
         }
         
         // Display numbers
-        System.out.println(firstInt + " " + secondInt + " " + thirdInt);
-
-
-        
+        System.out.println(firstInt + " " + secondInt + " " + thirdInt);   
     }
-
 }
