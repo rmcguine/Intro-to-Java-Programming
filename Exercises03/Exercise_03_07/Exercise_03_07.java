@@ -52,9 +52,6 @@ public class Exercise_03_07 {
         if (numberOfNickels > 0)    
             System.out.println(" " + numberOfNickels + (numberOfNickels == 1 ? " nickel" : " nickels"));
         if (numberOfPennies > 0)    
-            System.out.println(" " + numberOfPennies + (numberOfPennies == 1 ? " penny" : " pennies"));
-
-
-           
+            System.out.println(" " + numberOfPennies + (numberOfPennies == 1 ? " penny" : " pennies"));           
     }
 }
