@@ -45,9 +45,5 @@ public class Exercise_03_06 {
             System.out.println("Overweight");
         else 
             System.out.println("Obese");
-
-
-
-
     }
 }
