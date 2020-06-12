@@ -1,3 +1,5 @@
+package Misc.LeapYear;
+
 import java.util.Scanner;
 
 public class LeapYear {
