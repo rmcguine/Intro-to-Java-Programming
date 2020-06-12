@@ -1,3 +1,5 @@
+package Misc.Lottery;
+
 import java.util.Scanner;
 
 public class Lottery {
